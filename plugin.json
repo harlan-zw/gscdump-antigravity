@@ -1,0 +1,26 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "gscdump",
+  "displayName": "gscdump",
+  "description": "gscdump syncs Google Search Console data, backfills up to 16 months of available history, and preserves your collected data for MCP, API, and SQL.",
+  "version": "1.0.0",
+  "logo": "assets/logo.png",
+  "author": {
+    "name": "Harlan Wilton",
+    "url": "https://harlanzw.com"
+  },
+  "homepage": "https://gscdump.com/mcp",
+  "repository": "https://github.com/harlan-zw/gscdump-antigravity",
+  "keywords": [
+    "search-console",
+    "google-search-console",
+    "seo",
+    "indexing",
+    "gsc"
+  ],
+  "suggestedPrompts": [
+    "Which of my Sites lost the most clicks this week?",
+    "Which queries sit at positions 4 to 20 with high impressions?",
+    "Is my home page indexed by Google? Show the verdict and the date."
+  ]
+}
