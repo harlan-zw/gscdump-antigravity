@@ -1,5 +1,5 @@
 ---
-name: gscdump
+name: gscdump-mcp
 description: >-
   Runs multi-step Google Search Console workflows through gscdump MCP tools.
   Use when triaging traffic drops, finding striking-distance queries and CTR
