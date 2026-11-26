@@ -16,6 +16,10 @@ In the Antigravity App, gscdump renders interactive Search Console views beside 
 
 Antigravity CLI and non-UI clients use the same tools with plain-text output.
 
+## Workflow skill
+
+The plugin bundles the `gscdump` MCP skill (`skills/gscdump/SKILL.md`) with playbooks for traffic drop triage, striking-distance queries, Indexing Evidence and Sitemap search visibility audits, and Fleet comparisons.
+
 Evidence tools and `open-explorer` only read your data. inspect-url asks Google live and uses your URL Inspection allowance. connect-site adds a Site to your gscdump account and starts its backfill. submit-indexnow sends the URLs you choose to IndexNow. submit-feedback and record-agent-outcome send reports to gscdump. Nothing writes to Google.
 
 Open source: the engine, CLI, and SDK are MIT licensed on GitHub.
